@@ -33,3 +33,5 @@ def number():
     else:
         ("Try again!")
         number()
+
+ghosts=("")
