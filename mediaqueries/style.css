@@ -1,0 +1,39 @@
+body{
+    color: red;
+}
+
+.title{
+    size: 30px;
+}
+
+.subtitle{
+    size: 20px;
+}
+
+.desktop, .mobile{
+    display: none
+}
+
+@media (orientation: landscape) {
+    .title {
+        color: green;
+        background-color: yellow;
+        text-align: center;
+        padding: 5%;
+    }
+    .desktop {
+        display: inline-block;
+    }
+}
+
+@media (orientation: portrait) {
+    .subtitle {
+        color: blue;
+        background-color: red;
+        text-align: center;
+        padding: 5%;
+    }
+    .mobile {
+        display: inline-block;
+    }
+}
