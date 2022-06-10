@@ -10,26 +10,37 @@ body {
     border-style: double;
 }
 
+.desktop, .mobile {
+    display: none;
+}
+
 @media (orientation:portrait) {
     body {
-        background-color: black;
-        color: grey;
+        background-color: darkgray;
+        color: black;
     }
     .items {
         display: flex;
         align-content: space-around;
         flex-direction: column;
     }
+    .mobile {
+        display: inline-block;
+    }
 }
 
 @media (orientation:landscape) {
     body {
-        background-color: white;
-        color: black;
+        background-color: antiquewhite;
+        color: grey;
     }
     .items {
         display: flex;
         align-content: space-between;
         flex-direction: row;
+    }
+    .desktop {
+        display: inline-block;
+        margin: 0;
     }
 }
