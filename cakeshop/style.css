@@ -4,7 +4,11 @@ body {
     font-family: 'Source Serif Pro', serif;
 }
 
-
+.food {
+    margin: 5%;
+    padding: 5%;
+    border-style: double;
+}
 
 @media (orientation:portrait) {
     body {
@@ -15,11 +19,6 @@ body {
         display: flex;
         align-content: space-around;
         flex-direction: column;
-    }
-    .food {
-        margin: 5%;
-        padding: 5%;
-        border-style: double;
     }
 }
 
@@ -32,10 +31,5 @@ body {
         display: flex;
         align-content: space-between;
         flex-direction: row;
-    }
-    .food {
-        margin: 5%;
-        padding: 5%;
-        border-style: double;
     }
 }
