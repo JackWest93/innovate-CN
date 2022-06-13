@@ -8,6 +8,6 @@ Superman.superpower("Super-strength, super speed, flying.")
 Hulk.superpower("Super strength")
 Batman.superpower("Rich")
 
-Batman.call()
 Hulk.call()
 Superman.call()
+Batman.call()
