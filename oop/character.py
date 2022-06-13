@@ -4,7 +4,7 @@ class Character():
         self.h_name=sh_name
 
     def superpower(self,power):
-        self.sp=power
+        self.super=power
     
     def call(self):
-        print(self.sp)
+        print(self.super)
